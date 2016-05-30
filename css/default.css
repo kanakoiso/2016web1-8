@@ -12,6 +12,7 @@ body{
 }
 
 #logo li{
+     float: left;
      display: table-cell;
      vertical-align: middle;
      padding: 0 10px;
@@ -29,6 +30,11 @@ body{
      text-decoration: none;
      background: darkgreen;
      color: white;
+}
+
+#gnav a:hover {
+     background: lightgreen;
+     color: black;
 }
 
 #gnav a.selected{
