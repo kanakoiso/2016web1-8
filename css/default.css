@@ -7,6 +7,19 @@ body{
      background-color: mediumaquamarine;
 }
 
+.breadcrumbs li{
+     display: inline;
+     list-style-type: none;
+}
+
+.breadcrumbs li:before{
+    content:">";
+}
+
+.breadcrumbs li:first-child:before{
+    content: "";
+}
+
 #logo ul{
      overflow: hidden;
 }
@@ -43,11 +56,6 @@ body{
      font-weight: bold;
 }
 
-.breadcrumbs li{
-     display: inline;
-     list-style-type: none;
-}
-
 #gnav div.img{
      display: table-cell;
      vertical-align: middle;
@@ -67,14 +75,6 @@ div.img#content1{background-position: 0 -46px;}
 div.img#content1{background-position: 0 -92px;}
 div.img#help{  background-position: 0 -148px;}
 div.img#faq{  background-position: 0 -184px;}
-
-.breadcrumbs li:before{
-    content:">";
-}
-
-.breadcrumbs li:first-child:before{
-    content: "";
-}
 
 #ganv ul{
      overflow: hidde;
